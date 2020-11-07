@@ -1006,7 +1006,7 @@ boolean is_draw() { //determines if draw on desk
     if (abs(pole[i])==3&&(column[i]+row[i])%2==0) cbb++; //number of whitefields bishops
     if (abs(pole[i])==3&&(column[i]+row[i])%2==1) cbw++; //number of blackfields bishops
     if (pole[i]==3) cw++; //number of white bishops
-    if (pole[i]==-3) cb++; /number of black bishops
+    if (pole[i]==-3) cb++; //number of black bishops
   }
   if (cn==1&&co+cbb+cbw==0) draw=true;  //one knight only
   if (cbb+cbw==1&&co+cn==0) draw=true;  //one bishop only
@@ -1416,7 +1416,7 @@ char w[150];
   } else if (BTime.IsPressed()) {
      beep(100);
      limit+=1; if (limit>9) limit=0;
-     timelimith=limits[limit]*1000;
+     timelimith=long(limits[limit])*1000L;
      //Serial.println(timelimith);
      BTime.Show(limitstrings[limit]);
   } else if (BBack.IsPressed()) {
