@@ -16,7 +16,7 @@ const char wac15[] PROGMEM="1R6/1brk2p1/4p2p/p1P1Pp2/P7/6P1/1P4P1/2R3K1 w - - bm
 const char wac16[] PROGMEM="r4rk1/ppp2ppp/2n5/2bqp3/8/P2PB3/1PP1NPPP/R2Q1RK1 w - - bm Nc3; id ""WAC.016""; d5+2";
 const char wac17[] PROGMEM="1k5r/pppbn1pp/4q1r1/1P3p2/2NPp3/1QP5/P4PPP/R1B1R1K1 w - - bm Ne5; id ""WAC.017""; d5+1";
 const char wac18[] PROGMEM="R7/P4k2/8/8/8/8/r7/6K1 w - - bm Rh8; id ""WAC.018""; d6+6";
-const char wac19[] PROGMEM="r1b2rk1/ppbn1ppp/4p3/1QP4q/3P4/N4N2/5PPP/R1B2RK1 w - - bm c6; id ""WAC.019""; d6+0.7";    
+const char wac19[] PROGMEM="r1b2rk1/ppbn1ppp/4p3/1QP4q/3P4/N4N2/5PPP/R1B2RK1 w - - bm c6; id ""WAC.019""; d6+0.7";
 const char wac20[] PROGMEM="r2qkb1r/1ppb1ppp/p7/4p3/P1Q1P3/2P5/5PPP/R1B2KNR b kq - bm Bb5; id ""WAC.020""; d6+7";
 const char wac21[] PROGMEM="5rk1/1b3p1p/pp3p2/3n1N2/1P6/P1qB1PP1/3Q3P/4R1K1 w - - bm Qh6; id ""WAC.021""; d5+6";
 const char wac22[] PROGMEM="r1bqk2r/ppp1nppp/4p3/n5N1/2BPp3/P1P5/2P2PPP/R1BQK2R w KQkq - bm Ba2 Nxf7; id ""WAC.022""; Nxf7 d5+0.5";
@@ -35,7 +35,7 @@ const char wac34[] PROGMEM="7k/1b1r2p1/p6p/1p2qN2/3bP3/3Q4/P5PP/1B1R3K b - - bm 
 const char wac35[] PROGMEM="r3r2k/2R3pp/pp1q1p2/8/3P3R/7P/PP3PP1/3Q2K1 w - - bm Rxh7+; id ""WAC.035""; d5+m4";
 const char wac36[] PROGMEM="3r4/2p1rk2/1pQq1pp1/7p/1P1P4/P4P2/6PP/R1R3K1 b - - bm Re1+; id ""WAC.036""; d5+4";
 const char wac37[] PROGMEM="2r5/2rk2pp/1pn1pb2/pN1p4/P2P4/1N2B3/nPR1KPPP/3R4 b - - bm Nxd4+; id ""WAC.037""; d5+1";
-const char wac38[] PROGMEM="4k3/p4prp/1p6/2b5/8/2Q3P1/P2R1PKP/4q3 w - - bm Qd3 Rd8+; id ""WAC.038""; Rd8+ 5+1.5 Qd3 13+1.8"; 
+const char wac38[] PROGMEM="4k3/p4prp/1p6/2b5/8/2Q3P1/P2R1PKP/4q3 w - - bm Qd3 Rd8+; id ""WAC.038""; Rd8+ 5+1.5 Qd3 13+1.8";
 const char wac39[] PROGMEM="r1br2k1/pp2bppp/2nppn2/8/2P1PB2/2N2P2/PqN1B1PP/R2Q1R1K w - - bm Na4; id ""WAC.039""; d5+2.3";
 const char wac40[] PROGMEM="3r1r1k/1p4pp/p4p2/8/1PQR4/6Pq/P3PP2/2R3K1 b - - bm Rc8; id ""WAC.040""; d5+3.8";
 const char wac41[] PROGMEM="1k6/5RP1/1P6/1K6/6r1/8/8/8 w - - bm Ka5 Kc5 b7; id ""WAC.041""; Ka5 d6+16";
@@ -246,7 +246,7 @@ const char wac245[] PROGMEM="4rrn1/ppq3bk/3pPnpp/2p5/2PB4/2NQ1RPB/PP5P/5R1K w - 
 const char wac246[] PROGMEM="6R1/4qp1p/ppr1n1pk/8/1P2P1QP/6N1/P4PP1/6K1 w - - bm Qh5+; id ""WAC.246""; d5+m2";
 const char wac247[] PROGMEM="2k1r3/1p2Bq2/p2Qp3/Pb1p1p1P/2pP1P2/2P5/2P2KP1/1R6 w - - bm Rxb5; id ""WAC.247""; d8+7";
 const char wac248[] PROGMEM="5r1k/1p4pp/3q4/3Pp1R1/8/8/PP4PP/4Q1K1 b - - bm Qc5+; id ""WAC.248""; d6+0.5";
-const char wac249[] PROGMEM="r4rk1/pbq2pp1/1ppbpn1p/8/2PP4/1P1Q1N2/PBB2PPP/R3R1K1 w - - bm c5 d5; id ""WAC.249""; d5 d5+9 c5 d10+1.7"; 
+const char wac249[] PROGMEM="r4rk1/pbq2pp1/1ppbpn1p/8/2PP4/1P1Q1N2/PBB2PPP/R3R1K1 w - - bm c5 d5; id ""WAC.249""; d5 d5+9 c5 d10+1.7";
 const char wac250[] PROGMEM="1b5k/7P/p1p2np1/2P2p2/PP3P2/4RQ1R/q2r3P/6K1 w - - bm Re8+; id ""WAC.250""; d5+m8";
 const char wac251[] PROGMEM="k7/p4p2/P1q1b1p1/3p3p/3Q4/7P/5PP1/1R4K1 w - - bm Qe5 Qf4; id ""WAC.251""; d8+m6";
 const char wac252[] PROGMEM="1rb1r1k1/p1p2ppp/5n2/2pP4/5P2/2QB4/qNP3PP/2KRB2R b - - bm Bg4 Re2; c0 ""Bg4 wins, but Re2 is far better.""; id ""WAC.252""; Bg4 +3 Re2 d7+m7 d8+m5";
@@ -299,10 +299,10 @@ const char wac298[] PROGMEM="3Q4/p3b1k1/2p2rPp/2q5/4B3/P2P4/7P/6RK w - - bm Qh8+
 const char wac299[] PROGMEM="1n2rr2/1pk3pp/pNn2p2/2N1p3/8/6P1/PP2PPKP/2RR4 w - - bm Nca4; id ""WAC.299""; d5+5";
 const char wac300[] PROGMEM="b2b1r1k/3R1ppp/4qP2/4p1PQ/4P3/5B2/4N1K1/8 w - - bm g6; id ""WAC.300""; d5+2";
 
-const char * const wacs[] PROGMEM = {   
+const char * const wacs[] PROGMEM = {
   wac1,wac2,wac3,wac4,wac5,wac6,wac7,wac8,wac9,wac10,
   wac11,wac12,wac13,wac14,wac15,wac16,wac17,wac18,wac19,wac20,
-  wac21,wac22,wac23,wac24,wac25,wac26,wac27,wac28,wac29,wac30,  
+  wac21,wac22,wac23,wac24,wac25,wac26,wac27,wac28,wac29,wac30,
   wac31,wac32,wac33,wac34,wac35,wac36,wac37,wac38,wac39,wac40,
   wac41,wac42,wac43,wac44,wac45,wac46,wac47,wac48,wac49,wac50,
   wac51,wac52,wac53,wac54,wac55,wac56,wac57,wac58,wac59,wac60,
@@ -312,7 +312,7 @@ const char * const wacs[] PROGMEM = {
   wac91,wac92,wac93,wac94,wac95,wac96,wac97,wac98,wac99,wac100,
   wac101,wac102,wac103,wac104,wac105,wac106,wac107,wac108,wac109,wac110,
   wac111,wac112,wac113,wac114,wac115,wac116,wac117,wac118,wac119,wac120,
-  wac121,wac122,wac123,wac124,wac125,wac126,wac127,wac128,wac129,wac130,  
+  wac121,wac122,wac123,wac124,wac125,wac126,wac127,wac128,wac129,wac130,
   wac131,wac132,wac133,wac134,wac135,wac136,wac137,wac138,wac139,wac140,
   wac141,wac142,wac143,wac144,wac145,wac146,wac147,wac148,wac149,wac150,
   wac151,wac152,wac153,wac154,wac155,wac156,wac157,wac158,wac159,wac160,
@@ -322,7 +322,7 @@ const char * const wacs[] PROGMEM = {
   wac191,wac192,wac193,wac194,wac195,wac196,wac197,wac198,wac199,wac200,
   wac201,wac202,wac203,wac204,wac205,wac206,wac207,wac208,wac209,wac210,
   wac211,wac212,wac213,wac214,wac215,wac216,wac217,wac218,wac219,wac220,
-  wac221,wac222,wac223,wac224,wac225,wac226,wac227,wac228,wac229,wac230,  
+  wac221,wac222,wac223,wac224,wac225,wac226,wac227,wac228,wac229,wac230,
   wac231,wac232,wac233,wac234,wac235,wac236,wac237,wac238,wac239,wac240,
   wac241,wac242,wac243,wac244,wac245,wac246,wac247,wac248,wac249,wac250,
   wac251,wac252,wac253,wac254,wac255,wac256,wac257,wac258,wac259,wac260,
@@ -331,5 +331,5 @@ const char * const wacs[] PROGMEM = {
   wac281,wac282,wac283,wac284,wac285,wac286,wac287,wac288,wac289,wac290,
   wac291,wac292,wac293,wac294,wac295,wac296,wac297,wac298,wac299,wac300
  };
-  
+
 
