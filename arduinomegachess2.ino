@@ -1145,6 +1145,7 @@ step_t best;
   erasestatus();
   //status_c1=-1; status_c2=-1;
   solving=1;
+  if (sound) for (int i=1;i<4;i++) { tone(44,400+300*i,70); delay(70); }
   int ALPHA=-20000;
   int BETA=20000;
   level=2; //2
@@ -1200,6 +1201,7 @@ step_t best;
   //Serial.println(" maxstep="+String(maxstep));
   halt=1;
   show_status();
+  if (sound) for (int i=3;i>=1;i--) { tone(44,400+300*i,70); delay(70); }
   solving=0;
   if (pos[0].cut.weight<-9900) return -1;
   return 1;
@@ -1379,6 +1381,7 @@ char w[150];
         ply++;
         //show_position();
         show_board();
+        if (sound) for (int i=2;i>=1;i--) { tone(44,400+300*i,70); delay(100); }
         show_steps();
         erasestatus();
         check_gameend();

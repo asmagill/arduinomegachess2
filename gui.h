@@ -39,7 +39,7 @@ int touchx,touchy,touched;
 #define PinBuzz 44
 
 boolean rotate=0;
-boolean sound=0;
+boolean sound=1;
 boolean menu=0;
 boolean pause=0;
 unsigned long guitime=0;
