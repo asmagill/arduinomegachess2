@@ -1253,6 +1253,7 @@ void closemenu() {
   BNew.Hide();
   BAuto.Hide();
   BRotate.Hide();
+  BSound.Hide();
   BLoad.Hide();
   BSave.Hide();
   clearmenu();
@@ -1410,7 +1411,9 @@ char w[150];
      if (sa=="") sa="-";
      sa="AUTO:"+sa;
      BAuto.Show(sa);
-     BRotate.Show("ROTATE");
+//      BRotate.Show("ROTATE");
+     BRotate.Show(rotate);
+     BSound.Show(sound);
      BLoad.Show();
      BSave.Show();
     } else { //menu
@@ -1467,13 +1470,17 @@ char w[150];
     show_color();
   } else if (BRotate.IsPressed()) {
     beep(100);
-    BRotate.Show();
+//     BRotate.Show();
     if (rotate) rotate=0; else rotate=1;
+    BRotate.Show(rotate);
     erasestatus();
     border();
     cleardisplayboard();
     show_board();
     show_color();
+  } else if (BSound.IsPressed()) {
+    if (sound==1) { beep(100); sound=0; } else { sound=1; beep(200); }
+    BSound.Show(sound);
   } else if (BSave.IsPressed()) {
     beep(100);
     eepromsave();
