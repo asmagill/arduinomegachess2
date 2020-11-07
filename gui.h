@@ -9,8 +9,10 @@
  #define screen_height 320
  #define mapx1 980
  #define mapx2 110
- #define mapy1 145
- #define mapy2 902
+//  #define mapy1 145
+//  #define mapy2 902
+ #define mapy2 145
+ #define mapy1 902
 #endif
 
 #ifdef adafruit320
@@ -26,7 +28,8 @@
 #endif
 
 #include "TouchScreen.h"
-int XP = 6, YP = A1, XM = A2, YM = 7;
+// int XP = 6, YP = A1, XM = A2, YM = 7;
+int XP = 8, YP = A3, XM = A2, YM = 9;
 TouchScreen ts(XP, YP, XM, YM, 300);
 TSPoint tp;
 
